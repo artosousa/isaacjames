@@ -1,6 +1,7 @@
 import Navigation from '../components/navigation';
 import React from 'react';
 import {Flex, List, ListItem, Text} from '@chakra-ui/core';
+import {Helmet} from 'react-helmet';
 import {graphql, useStaticQuery} from 'gatsby';
 
 export default function Exhibits() {
@@ -32,7 +33,11 @@ export default function Exhibits() {
   );
   return (
     <>
-      {console.log(data.allContentfulExhibits.nodes)}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Exhibits - Isaac James W</title>
+        <meta name="description" content="Ontario Canada based artist." />
+      </Helmet>
       <Flex
         p="25vh 0 0 0"
         align="start"

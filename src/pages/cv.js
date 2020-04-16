@@ -1,6 +1,7 @@
 import Navigation from '../components/navigation';
 import React from 'react';
 import {Flex, Link, Text} from '@chakra-ui/core';
+import {Helmet} from 'react-helmet';
 import {graphql, useStaticQuery} from 'gatsby';
 
 export default function Cv() {
@@ -20,6 +21,11 @@ export default function Cv() {
   );
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>CV - Isaac James W</title>
+        <meta name="description" content="Ontario Canada based artist." />
+      </Helmet>
       <Flex
         p="25vh 0 0 0"
         align="start"

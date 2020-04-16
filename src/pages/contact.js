@@ -1,6 +1,7 @@
 import Navigation from '../components/navigation';
 import React from 'react';
 import {Flex, Image, Link, Text} from '@chakra-ui/core';
+import {Helmet} from 'react-helmet';
 import {graphql, useStaticQuery} from 'gatsby';
 
 export default function Contact() {
@@ -21,6 +22,11 @@ export default function Contact() {
   );
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact - Isaac James W</title>
+        <meta name="description" content="Ontario Canada based artist." />
+      </Helmet>
       <Flex
         p="25vh 0 0 0"
         align="start"
