@@ -1,0 +1,33 @@
+{
+  "name": "isaacjames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/core": "^0.7.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "dotenv": "^8.2.0",
+    "emotion-theming": "^10.0.27",
+    "gatsby": "^2.20.22",
+    "gatsby-plugin-chakra-ui": "^0.1.4",
+    "gatsby-source-contentful": "^2.2.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@trevorblades/eslint-config": "^7.0.2",
+    "eslint": "^6.8.0"
+  },
+  "eslintConfig": {
+    "extends": "@trevorblades/eslint-config/react"
+  }
+}
