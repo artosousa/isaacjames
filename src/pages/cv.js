@@ -27,7 +27,6 @@ export default function Cv() {
         <meta name="description" content="Ontario Canada based artist." />
       </Helmet>
       <Flex
-        p="25vh 0 0 0"
         align="start"
         justify="center"
         w={['100%', '100%', '70%', '70%']}
