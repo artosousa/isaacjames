@@ -17,7 +17,7 @@
     "@emotion/styled": "^10.0.27",
     "dotenv": "^8.2.0",
     "emotion-theming": "^10.0.27",
-    "gatsby": "^2.20.22",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-chakra-ui": "^0.1.4",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-react-helmet": "^3.2.3",
